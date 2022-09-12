@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:'Lobster', cursive;
+}
+
+section header {
+    padding: 3rem 0;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+/*---------images------------*/
+
+.woman {
+    display: block;
+    height: 200px;
+    margin: 15px;
+    margin-top: 150px;
+}
+
+.man {
+    display: block;
+    height: 200px;
+    margin: 15px;
+}
+
+/*---------images------------*/
+
+.split {
+    display: flex;
+    flex-basis: 100%;
+}
+
+.split > * + * {
+    margin-left: 2em;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>_HEADER_SECTION_<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.bg-color1 {
+    background-color: #022b3a;
+    color: whitesmoke;
+    padding: 10px 10%;
+}
+
+.navlinks, li, a {
+    font-size: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    margin: auto;
+}
+.header-logo {
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+}
+.top-logo, img {
+    color: whitesmoke;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.bottom-logo, img {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>_THE_STORY_SECTION_<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.bg-color2 {
+    background-color: #bfdbf7;
+    color:#1f7a8c;
+}
+
+/*--"The Story" side bar--------*/
+
+.bg2-sidebar {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bg2-sidebar h4 a {
+    transform: rotate(270deg); 
+    color:#1f7a8c;
+}   
+
+/* -------------------------- */
+
+.bg2-h1-bg-fff {
+    background-color: whitesmoke;
+    align-items: center;
+    padding: 20px 30px;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.bg2-h1-bg-fff h1 {
+    text-align: center;
+}
+
+.bg2-bg-fff p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.bg2-bg-fff {
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    margin: 15px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>_THE_MENU_SECTION_<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.bg-color3 {
+    background-color: #fff;
+    color: #CCD5AE;
+}
+
+.bg3-list li {
+    text-align: center;
+    display: table;
+    text-decoration: underline;
+    font-family: "Lobster";
+    font-size: 30px;
+    color: #022b3a;
+}
+.bg3-list {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg3-list ul {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+.bg3-sidebar-anckor {
+    color:#022b3a;
+}
+
+/*--"The Menu" side bar--------*/
+
+.bg3-sidebar {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bg3-sidebar h4 {
+    transform: rotate(270deg); 
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>_THE_PRESS_SECTION_<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+.bg-color4 {
+    background-color: #1f7a8c;
+    color: white;
+}
+
+.bg4-sidebar {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bg4-sidebar h4 {
+    transform: rotate(270deg); 
+}
+
+.bg4-para-1 {
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bg4-list {
+    background-color: #022b3a;
+    margin: 20px 10px;
+    padding: 0px 60px;
+}
+
+.bg4-list li {
+    font-size: 10px;
+    font-family: "poppins";
+    color: whitesmoke;
+}
+
+.bg4-para-2 {
+    text-align: center;
+    align-items: center;
+    padding: 20px 30px;
+    margin: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* ------------- Press - list ------------------ */
+
+.bg4-top-list li {
+    display: block;
+    text-align: center;
+    padding: 1px;
+}
+
+.bg4-top-list {
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.bg4-middle-list li {
+    display: block;
+    text-align: center;
+    padding: 1px;
+}
+
+.bg4-middle-list {
+    padding-bottom: 30px;
+}
+
+.bg4-bottom-list li {
+    display: block;
+    text-align: center;
+    padding: 1px;
+}
+
+.bg4-bottom-list {
+    padding-bottom: 50px;
+}
+    
+    
+/* >>>>>>>>>>>>>>>>>>>>>>>>_THE_CONTACT_SECTION_<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.bg-color5 {
+    background-color: #e1e5f2;
+    color: #D4A373;
+}
+
+/*--"Contact" side bar--------*/
+
+.bg5-sidebar {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bg5-sidebar h4 a {
+    transform: rotate(270deg); 
+    color:#1f7a8c;
+}
+
+/*--"Contact" side bar--------*/
+
+.bg5-text1 {
+    color:#1f7a8c;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 100px;
+}
+
+.bg5-text2 {
+    color:#1f7a8c;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 100px;
+}
+
+/* -------------------------- */
+
+.bg5-table {
+    color:#1f7a8c;
+    border-collapse: collapse;
+    width: 20em;
+    height: 10em;
+    margin: 25px; 
+    text-align: center;
+}
+
+.bg5-table tr td {
+    border: 1px solid #1f7a8c;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>_FOOTER_SECTION_<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+footer {
+    background-color: #bfdbf7;
+}
+
+img.footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
